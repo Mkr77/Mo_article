@@ -1,67 +1,232 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>Project_1</title>
-</head>
-<body>
-    <div class="header">
-            <div class="navbar">
-                    <a  href="">
-                      <img src="img/Artboard 2 copy.png" width="50" height="50" class="d-inline-block align-top" alt="">
-                      Event
+<html>
+    <head>
+        <title>Article</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/interactjs@next/dist/interact.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="row header" style="z-index: 100">
+                <div class="col-4">
+                    <a href="index.html"><div class="logo-wrapper">
+                        <img class="img img-responsive" src="images/Artboardcopy.png">
+                    </div>
                     </a>
-                  </nav>
-                  <div>
-                      <img src="/img/flaticon1551219687-svg.svg" width="50" height="50" alt="">
-                      <img src="/img/flaticon1551219696-svg.svg" width="50" height="50" alt="">
-                      <img src="/img/flaticon1551219727-svg.svg" width="50" height="50" alt="">
-                  </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <h2 class="p-2">EVENTS</h2>
+                </div>
+                <div class="col-4 d-inline-flex p-2 justify-content-end" style="height: 50px;padding-right:20px;">
+                    <ul class="social-icon list-inline p-2">
+                        <li class="list-inline-item"><a href=""><img src="images/fb.svg" width="20" alt="facebook icon"></a></li>
+                        <li class="list-inline-item"><a href=""><img src="images/tw.svg" width="20" alt="twitter icon"></a></li>
+                        <li class="list-inline-item"><a href=""><img src="images/ins.svg" width="20" alt="instagram icon"></a></li>
+                    </ul>
+                </div>
             </div>
-    </div>
-    <div class="content">
-        <h2>NYCB ART SERIES PRESENTS SHANTELL MARTIN
-            </h2>
-            <div>
-             <h3>Shantell Martin</h3>
-             <p>is a British artist whose been living in NYC for nearly a decade. 
-                From her early beginnings with live performance drawings to sound, music and dance projected digitally in the mega clubs of Tokyo, 
-                to her trademark stream-of-consciousness physical drawings here in the U.S., her work is a mediation of lines that invites people to share a role in the creative process. 
-                Aside from her studio practice and numerous public installations, Shantell serves as an adjunct professor at NYU Tisch School of the Arts, and is a visiting scholar at the MIT Media Lab. 
-                Her work has been seen in group shows at the Brooklyn Museum and Museum of the Moving Image, in solo exhibition at the Albright-Knox museum and MoCADA, 
-                and in a 75-minute performance with Kendrick Lamar in 2016 during Art Basel Miami.
-                </p>
+
+            <div class="content-1" id="content-1" style="z-index: 100">
+                <div id="drag-2" class="draggable">
+                    <div class="d2-box">
+                        <span>Our aim</span>
+                    </div>
+                    <p> Our aim is to cross-pollinate the disciplines of 
+                        performing and visual arts – and their audiences – by 
+                        annually inviting a contemporary artist to create a site specific work 
+                        of art in our Lincoln Center home. Inspired by something as simple as movement, 
+                        or as specific as our history, our dancers, or a piece of our world-renowned 
+                        repertory, the Art Series installation is on view during the Company’s six-week 
+                        winter performance period. Previous collaborators 
+                        have included FAILE/Patrick McNeil 
+                        & Patrick Miller, JR, Dustin Yellin, Marcel Dzama, 
+                        Santtu Mustonen, and Jihan Zencirli. </p>
+                    <div class="text-right">
+                        <img class="img img-responsive" src="images/Shantell-Martin-NYC-Ballet-Photo-by-Anton-and-Irene-02.jpg" width="135" >
+                    </div>
+                </div>
+                <div id="drag-1" class="draggable">
+                    <div class="d1-box">
+                        <span>basis for Art Series</span>
+                    </div>
+                    <p> The basis for Art Series lies in New York City Ballet’s rich history 
+                        of working with visual artists. When the New York State Theater opened 
+                        in 1964, architect Philip Johnson and NYCB Founder Lincoln Kirstein curated 
+                        a permanent collection for what was to become one of New York City’s great 
+                        public spaces, and included works by Jasper Johns, Lee Bontecou, and Elie Nadelman. 
+                        In more recent years, other leading and emerging artists – luminaries like Keith 
+                        Haring, Julian Schnabel and Santiago Calatrava – have collaborated with 
+                        the Company in a variety of 
+                        ways on and off the stage. Art Series builds on these traditions.</p>
+                </div>
+
+                <div id="drag-3" class="draggable">
+                    <div class="d3-box">
+                        <span>Shantell Martin</span>
+                    </div>
+                    <p> Shantell Martin
+                        is a British artist whose been living in NYC for nearly a decade. 
+                        From her early beginnings with live performance drawings to sound, 
+                        music and dance projected digitally in the mega clubs of Tokyo, to 
+                        her trademark stream-of-consciousness physical drawings here in the U.S., 
+                        her work is a mediation of lines that invites people to share a role in the 
+                        creative process. Aside from her studio practice and numerous public installations,
+                        Shantell serves as an adjunct professor at NYU Tisch School of the Arts, and is a visiting 
+                        scholar at the MIT Media Lab. Her work has been seen in group shows at the 
+                        Brooklyn Museum and Museum of the Moving Image, in solo exhibition 
+                        at the Albright-Knox museum and MoCADA, and in a 75-minute performance
+                        with Kendrick Lamar in 2016 during Art Basel Miami. </p>
+                </div>
+
+
+                <div class="top-fixed">
+                    NYCB ART SERIES PRESENTS<br> SHANTELL MARTIN
+                </div>
+                <div class="share-fixed">
+                    <span>Share</span>
+                </div>
+                <div class="bottom-left-fixed">
+                    More about our previous<br> art series events
+                </div>
+                <div class="bottom-right-fixed">
+                    Buy the Tickets
+                </div>
             </div>
-                <h3>The basis for Art Series</h3>
-                <p>The basis for Art Series lies in New York City Ballet’s rich history of working with visual artists. When the New York State Theater opened in 1964, architect Philip Johnson and NYCB Founder Lincoln Kirstein curated a permanent collection for what was to become one of New York City’s great public spaces, and included works by Jasper Johns, Lee Bontecou, and Elie Nadelman. In more recent years, other leading and emerging artists – luminaries like Keith Haring, Julian Schnabel and Santiago Calatrava – have collaborated with the Company in a variety of ways on and off the stage. Art Series builds on these traditions.
-                    </p>
-                    <h3>Our aim</h3>
-                    <p>Our aim is to cross-pollinate the disciplines of performing and visual arts – and their audiences – by annually inviting a contemporary artist to create a site specific work of art in our Lincoln Center home. Inspired by something as simple as movement, or as specific as our history, our dancers, or a piece of our world-renowned repertory, the Art Series installation is on view during the Company’s six-week winter performance period. Previous collaborators have included FAILE/Patrick McNeil & Patrick Miller, JR, Dustin Yellin, Marcel Dzama, Santtu Mustonen, and Jihan Zencirli.
-                        </p>
-                        <img src="/img/Shantell-Martin-NYC-Ballet-Photo-by-Anton-and-Irene-02.jpg" width="350" alt="50x50">
 
 
-                        <h2>2019 ART SERIES PERFORMANCES</h2>
-                        <h4>FEB 2 at 8 PM CLASSIC NYCB
-                            </h4>
-                            <img src="/img/NEW-YORK-TIMES-shantell-martin-nycb_201901260056_201901260056.jpg" alt="" sizes="" srcset="">
-                            <p>In Vento After the Rain Pas de Deux Variations pour une Porte et un Soupir Duo Concertant The Times are Racing
-
-                            </p>
-                            <h4>FEB 8 at 8 PM ONE-TIME-ONLY PROGRAM
-                                </h4>
-                                <img src="/img/Screen Shot 2019-02-14 at 4.00.28 PM.png" alt="" sizes="" srcset="">
-                                <p>Agon Orpheus N.Y. Export : Opus Jazz</p>
-                                <h4>MAR 2 at 8 PM NEW COMBINATIONS</h4>
-                                <img src="/img/ShantellMartin_123_R.jpg" alt="" sizes="" srcset="">
-                                <p>Herman Schmerman New Peck 1 The Runaway</p>
+            <div class="bg-img"><img style="z-index: -1" class="" src="images/shanntel.jpg" alt="image"></div>
 
 
-            
-    </div>
-    <script src="/js/script.js"></script>
-</body>
+            <div class="content-2" id="content-2" style="z-index: 100;display: none;" >
+                <div class="top-right">
+                    <span style="font-size: 21px;">2019 ART SERIES</span><br>PERFORMANCES
+                </div>
+                <div class="row" style="margin-top: 150px;">
+                    <div class="col-12">
+                        <div class="info-wrapper">
+                            <span><b>FEB 8 at 8PM</b></span><br>
+                            <span>ONE-TIME-ONLY PROGRAM</span><br>
+                            <span>AgonOrpheus</span><br>
+                            <span>N.Y.Export : Opus Jazz</span>
+                        </div>
+                        <div class="img-wrapper">
+                            <img style="object-position: 50% 75%;" class="" src="images/NEW-YORK-TIMES-shantell-martin-nycb_201901260056_201901260056.jpg" alt="image">
+                        </div>
+                        <div class="tickets-wrapper">
+                            <span><b>Buy the Tickets</b></span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 52px;">
+                    <div class="col-12">
+                        <div class="info-wrapper">
+                            <span><b>FEB 8 at 8PM</b></span><br>
+                            <span>ONE-TIME-ONLY PROGRAM</span><br>
+                            <span>AgonOrpheus</span><br>
+                            <span>N.Y.Export : Opus Jazz</span>
+                        </div>
+                        <div class="img-wrapper">
+                            <img style="object-position: 50% 85%;" class="" src="images/ShantellMartin_123_R.jpg" alt="image">
+                        </div>
+                        <div class="tickets-wrapper">
+                            <span><b>Buy the Tickets</b></span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 52px;">
+                    <div class="col-12">
+                        <div class="info-wrapper">
+                            <span><b>FEB 8 at 8PM</b></span><br>
+                            <span>ONE-TIME-ONLY PROGRAM</span><br>
+                            <span>AgonOrpheus</span><br>
+                            <span>N.Y.Export : Opus Jazz</span>
+                        </div>
+                        <div class="img-wrapper">
+                            <img style="object-position: 50% 10%;" class="" src="images/Shantell-Martin-NYC-Ballet-Photo-by-Connie-Tsang-2.jpg" alt="image">
+                        </div>
+                        <div class="tickets-wrapper">
+                            <span><b>Buy the Tickets</b></span>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script>
+            var count = 0;
+            // target elements with the "draggable" class
+            interact('.draggable')
+                    .draggable({
+                        // enable inertial throwing
+                        inertia: true,
+                        // keep the element within the area of it's parent
+
+                        // enable autoScroll
+                        autoScroll: true,
+
+                        // call this function on every dragmove event
+                        onmove: dragMoveListener,
+                        // call this function on every dragend event
+                        onend: function (event) {
+                            count = 0;
+
+
+                        }
+                    });
+
+            function xxx(event) {
+
+                var el = event.target;
+                if (el.id === "drag-2") {
+                    var content_1 = document.getElementById("content-1");
+                    content_1.style.WebkitTransition = 'opacity 0.5s ease-in-out';
+                    content_1.style.opacity = '0';
+
+                    $("#content-2").fadeIn().css("display", "inline-block");
+
+                }
+                // 1s - time of the animation duration
+                // set transition property for webkit browsers only
+                el.style.WebkitTransition = 'opacity 0.5s ease-in-out';
+                el.style.opacity = '0';
+
+            }
+
+            function dragMoveListener(event) {
+                if (count === 0) {
+
+                    xxx(event);
+                }
+                var target = event.target,
+                        // keep the dragged position in the data-x/data-y attributes
+                        x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx,
+                        y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy;
+
+                // translate the element
+                target.style.webkitTransform =
+                        target.style.transform =
+                        'translate(' + 0 + 'px, ' + y + 'px)';
+
+                // update the posiion attributes
+                target.setAttribute('data-x', 0);
+                target.setAttribute('data-y', y);
+                count++;
+
+            }
+
+            // this is used later in the resizing and gesture demos
+            window.dragMoveListener = dragMoveListener;
+        </script>
+    </body>
 </html>
